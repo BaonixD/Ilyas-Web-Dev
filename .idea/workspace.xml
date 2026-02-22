@@ -4,13 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0700c96-1225-4d98-9771-e647273d74c1" name="Changes" comment="LAB2">
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/web dev.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB 3/task2/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB 3/task2/script.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/LAB 3/task2/style.css" afterDir="false" />
+    <list default="true" id="d0700c96-1225-4d98-9771-e647273d74c1" name="Changes" comment="LAB 3">
+      <change afterPath="$PROJECT_DIR$/LAB 4/src/app/product.model.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/LAB 3/task1/date.js" beforeDir="false" afterPath="$PROJECT_DIR$/LAB 3/task1/date.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,6 +19,7 @@
       <list>
         <option value="HTML File" />
         <option value="CSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -56,6 +54,7 @@
   &quot;keyToString&quot;: {
     &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;JavaScript Debug.Poem.html.executor&quot;: &quot;Run&quot;,
+    &quot;JavaScript Debug.app.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.facebook.html.executor&quot;: &quot;Run&quot;,
     &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
@@ -78,14 +77,14 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\web dev\\LAB 4\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-PY-253.29346.142" />
-        <option value="bundled-python-sdk-f2b7a9f6281b-6e1f45a539f7-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-253.29346.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
       </set>
     </attachedChunks>
   </component>
@@ -103,6 +102,11 @@
       <workItem from="1770242445824" duration="2415000" />
       <workItem from="1770289841501" duration="124000" />
       <workItem from="1770824505780" duration="708000" />
+      <workItem from="1771414281273" duration="16000" />
+      <workItem from="1771478390200" duration="7000" />
+      <workItem from="1771585606848" duration="292000" />
+      <workItem from="1771585921179" duration="6024000" />
+      <workItem from="1771748978225" duration="2299000" />
     </task>
     <task id="LOCAL-00001" summary="LAB2">
       <option name="closed" value="true" />
@@ -112,7 +116,23 @@
       <option name="project" value="LOCAL" />
       <updated>1770242273609</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="LAB 3">
+      <option name="closed" value="true" />
+      <created>1770825235601</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1770825235601</updated>
+    </task>
+    <task id="LOCAL-00003" summary="LAB 3">
+      <option name="closed" value="true" />
+      <created>1770825377932</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1770825377932</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +151,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="LAB2" />
-    <option name="LAST_COMMIT_MESSAGE" value="LAB2" />
+    <MESSAGE value="LAB 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="LAB 3" />
   </component>
 </project>

@@ -99,6 +99,7 @@ bench(diffSubtract);
 bench(diffGetTime);
 for (let i = 0; i < 10; i++) {
   time1 += bench(diffSubtract);
+
   time2 += bench(diffGetTime);
 }
 
