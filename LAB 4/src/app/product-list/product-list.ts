@@ -35,7 +35,7 @@ export class ProductList {
     {
       id: 3,
       name: 'Ноутбук Apple MacBook Air 13 2025 13.3" / 16GB / SSD 512GB',
-      description: 'Самый тонкий и легкий ноутбук Apple, полностью преображенный чипом M1.',
+      description: 'Самый тонкий и легкий ноутбук Apple, полностью преображенный чипом M4.',
       price: 650000,
       rating: 5.0,
       image: 'https://resources.cdn-kaspi.kz/img/m/p/p38/p5a/37897269.jpeg?format=gallery-large',
