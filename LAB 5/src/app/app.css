@@ -1,0 +1,101 @@
+/* src/app/app.css */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Идеальная шапка */
+.header {
+  background-color: #f14635; /* Глубокий, сплошной фирменный цвет (без прозрачности) */
+  /* Мы убрали backdrop-filter (размытие), оно тут больше не нужно */
+  padding: 24px 0;
+  /* Внимание на тень: она не черная, а красноватая. Это выглядит очень дорого. */
+  box-shadow: 0 8px 25px rgba(241, 70, 53, 0.4);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  /* Тончайшая линия снизу для четкости границы */
+  border-bottom: 1px solid #e03e2e;
+}
+
+.header-content {
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.header h1 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: 800;
+  letter-spacing: -0.5px;
+}
+
+/* Кнопки категорий - премиум стиль */
+.category-buttons {
+  display: flex;
+  gap: 12px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.category-buttons button {
+  background: rgba(255, 255, 255, 0.95);
+  color: #1a1a1a;
+  border: none;
+  padding: 12px 28px;
+  border-radius: 12px; /* Мягкие квадраты, а не таблетки */
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.category-buttons button:hover {
+  background: #ffffff;
+  transform: translateY(-3px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+.category-buttons button.active {
+  background: #1a1a1a; /* Темный контраст для выбранной */
+  color: #ffffff;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(0);
+}
+
+/* Контейнер для товаров */
+.main-content {
+  flex: 1;
+  max-width: 1240px;
+  width: 100%;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* Сообщение-заглушка */
+.welcome-msg {
+  text-align: center;
+  margin-top: 15vh;
+  color: #6c757d;
+  animation: fadeIn 0.5s ease-in;
+}
+
+.welcome-msg h2 {
+  font-size: 2.2rem;
+  margin-bottom: 12px;
+  color: #1a1a1a;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+
